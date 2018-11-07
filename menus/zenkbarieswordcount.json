@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle zenkbarieswordcount",
+        "command": "zenkbarieswordcount:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "zenkbarieswordcount",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "zenkbarieswordcount:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
